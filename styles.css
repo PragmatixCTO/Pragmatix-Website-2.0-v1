@@ -21,6 +21,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fff;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -37,22 +38,22 @@ a {
 
 h1, h2, h3 {
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 15px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 p {
@@ -64,7 +65,7 @@ img {
 }
 
 section {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 /* Button Styles */
@@ -135,7 +136,7 @@ section {
 
 .logo img {
     width: auto;
-    height: 80px;
+    height: 160px;
     margin-right: 15px;
     display: block;
 }
@@ -157,29 +158,29 @@ section {
     background: var(--gradient-primary);
     color: white;
     text-align: center;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 4rem;
+    margin-bottom: 15px;
 }
 
 .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
+    font-size: 2rem;
+    margin-bottom: 25px;
 }
 
 /* Intro Section */
 .intro {
     text-align: center;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .intro p {
     max-width: 800px;
-    margin: 0 auto 30px;
-    font-size: 1.1rem;
+    margin: 0 auto 25px;
+    font-size: 1.3rem;
 }
 
 .pricing {
@@ -192,7 +193,7 @@ section {
 /* Features Section */
 .features {
     background-color: #f9f9f9;
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .feature-grid {
@@ -286,7 +287,8 @@ section {
 }
 
 .offering-card h3 {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    font-size: 2rem;
 }
 
 .offering-card p {
@@ -296,7 +298,7 @@ section {
 
 /* About Section */
 .about {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .about .container {
@@ -306,13 +308,15 @@ section {
 .about p {
     margin-bottom: 20px;
     text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 /* Career Boost Section */
 .career-boost {
     background: var(--gradient-secondary);
     color: white;
-    padding: 80px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
@@ -341,10 +345,11 @@ section {
 }
 
 .boost-item i {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .boost-item span {
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -352,11 +357,12 @@ section {
 .contact {
     background-color: #1a1a2e;
     color: white;
-    padding: 80px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 .contact p {
+    font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto 30px;
 }
@@ -369,7 +375,7 @@ section {
 .footer {
     background-color: #0e0e1a;
     color: white;
-    padding: 80px 0 30px;
+    padding: 60px 0 30px;
 }
 
 .footer-content {
@@ -431,23 +437,23 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2.8rem;
     }
     
     h2 {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
     
     .hero {
-        padding: 80px 0;
+        padding: 60px 0;
     }
     
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 3.2rem;
     }
     
     .hero p {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
     
     .feature-grid, .offering-grid {
@@ -467,7 +473,7 @@ section {
     }
     
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
     
     .btn {
