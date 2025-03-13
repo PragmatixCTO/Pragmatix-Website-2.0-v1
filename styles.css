@@ -210,7 +210,12 @@ section {
     text-align: center;
     box-shadow: var(--box-shadow);
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+
 
 .feature-card:hover {
     transform: translateY(-10px);
@@ -226,7 +231,19 @@ section {
     align-items: center;
     margin: 0 auto 20px;
 }
+.feature-card h3 {
+    margin-bottom: 15px; /* Consistent spacing below heading */
+    min-height: 40px; /* Ensure consistent height for titles */
+}
 
+.feature-card p {
+    margin-bottom: 20px;
+    flex-grow: 1; /* Allow the paragraph to expand and fill space */
+}
+
+.feature-icon {
+    margin: 0 auto 20px; /* Center the icon and add consistent bottom margin */
+}
 .feature-icon i {
     font-size: 1.8rem;
     color: var(--primary-color);
@@ -592,7 +609,7 @@ section {
 }
 
 .logo img {
-    height: 40px;
+    height: 160px;
     width: auto;
     margin-right: 10px;
     display: block;
