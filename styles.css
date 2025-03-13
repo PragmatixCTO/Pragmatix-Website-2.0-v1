@@ -472,3 +472,151 @@ section {
         padding: 10px 20px;
     }
 }
+
+/* Add these styles to your existing styles.css file */
+
+/* Journey Page Styles */
+.journey-header {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+
+.journey-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.journey-content {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.journey-intro {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.journey-step {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.journey-step h2 {
+    color: #4e54c8;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.journey-step ul {
+    padding-left: 20px;
+}
+
+.journey-step li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.getting-started, .our-bundles, .join-community {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.getting-started h2, .our-bundles h2, .join-community h2 {
+    color: #4e54c8;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.getting-started ol {
+    padding-left: 20px;
+    counter-reset: item;
+}
+
+.getting-started li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.our-bundles ul {
+    padding-left: 20px;
+}
+
+.our-bundles li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.join-community {
+    text-align: center;
+}
+
+.join-community p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 1.1rem;
+}
+
+.google-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 0;
+    overflow: hidden;
+    height: 800px;
+}
+
+/* Fix for logo issue */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    display: block;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text h1 {
+    font-size: 24px;
+    margin: 0;
+    line-height: 1;
+}
+
+.logo-text p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* Additional responsive styles */
+@media (max-width: 768px) {
+    .journey-step, .getting-started, .our-bundles, .join-community {
+        padding: 20px;
+    }
+    
+    .journey-header h1 {
+        font-size: 2rem;
+    }
+    
+    .google-form {
+        height: 600px;
+    }
+}
