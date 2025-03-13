@@ -47,6 +47,43 @@
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(138, 100, 232, 0.3);
         }
+        
+        /* Contact info styles */
+        .contact-info {
+            margin-top: 30px;
+        }
+        
+        .contact-info li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info i {
+            margin-right: 10px;
+            color: #3246a8;
+            font-size: 1.2rem;
+        }
+        
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .contact-info a:hover {
+            color: #3246a8;
+        }
+        
+        /* Fix for footer width */
+        .footer {
+            background-color: #0e0e1a;
+            color: white;
+            padding: 60px 0 30px;
+            width: 100%;
+            box-sizing: border-box;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -79,17 +116,26 @@
                 <h2>Overview</h2>
                 <p>Pragmatix Learning provides colleges with essential services designed to enhance student employability and skill development. Our offerings include comprehensive placement training programs that prepare students for successful job placements, specialized workshops covering topics such as quantitative aptitude and soft skills, and tailored skill development initiatives. By focusing on industry-relevant training, we empower students to thrive in competitive job markets and ensure they are well-equipped for their future careers.</p>
                 <p>Key Features</p>        
-                <li>Placement-Preparedness Program</li>
-                        <li>Recruitment Essentials Workshop</li>
-                        <li>Intensive Aptitude and Technical Training Program</li>
-                        <li>Mock Placement Day</li>
-
-                        <p>We will design and deliver training solutions tailor-made to the requirements of your institution and its students.</p>
-                        <li>support@pragmatixlearning.com</li>
-                        <li>+91 9645044777</li>
-                    </ul>
-                </div>
-                
+                <ul>
+                    <li>Placement-Preparedness Program</li>
+                    <li>Recruitment Essentials Workshop</li>
+                    <li>Intensive Aptitude and Technical Training Program</li>
+                    <li>Mock Placement Day</li>
+                </ul>
+                <p>We will design and deliver training solutions tailor-made to the requirements of your institution and its students.</p>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:support@pragmatixlearning.com">support@pragmatixlearning.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+919645044777">+91 9645044777</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
