@@ -134,8 +134,10 @@ section {
 }
 
 .logo img {
-    width: 150px;
+    width: auto;
+    height: 80px;
     margin-right: 15px;
+    display: block;
 }
 
 .logo-text h1 {
